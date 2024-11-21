@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Water, Save Life</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eaf7f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .tips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .tip {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .tip h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .tip p {
+            color: #555;
+        }
+
+        .tip img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #00796b;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffd54f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Save Water, Save Life</h1>
+    </header>
+
+    <!-- Main Section: Introduction -->
+    <section>
+        <h2>Why Water Conservation Matters</h2>
+        <p>Water is a precious resource, and with the global population growing rapidly, it's essential that we all take steps to conserve it. By reducing our water consumption, we help protect the environment, save energy, and ensure future generations have access to clean water.</p>
+    </section>
+
+    <!-- Tips Section: Ways to Save Water -->
+    <section>
+        <h2>How You Can Save Water</h2>
+        <div class="tips">
+            <div class="tip">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QEBUQEBAVEBUVDxUVEBcXFRUYFRAQFRUYGBYVFRcZHyggGBolHhUVIjIhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGi0mHSUtLi0tLS0tKy0tLS0rKy8tLS0tLSstLS0tKy0tLS0tLS0tLS0tLS0tKy0tLS0tLS0rLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIGAwQFBwj/xABIEAACAQIDBAYGBwQIBQUAAAABAgADEQQSIQUxQVEGEyJhcYEHMlKRobEUQlNywdHhIzOSohUWJENigvDxY7KzwtM0c3STo//EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACYRAQEAAgEDAwQDAQAAAAAAAAABAhEDEiFBBBMxIlFhsRTB8TL/2gAMAwEAAhEDEQA/AOlsPEmqKpKJdFTW5zAZ11Gmp1l2E8t2Jt+hQqVkaoRnpMhtSZ+2OG/TUD4z07C1AyKwN7oD43ExG6yiSEiJICVDjEIxCHJCRkhCpCSEgJNYRUqm2ab1WZbkX5HcNAfO0322xQTtM2QEgC6neSABv4kiVekXWrWCquj1FIIHZytYMDbha/nN3+sToyVnw6szFUyXNka9rjeB/vz0skV36PTDZy2DYukpvYZmVbkcNTLHgsfSqp1lOojr7SspHvDTyTF9OKWfKdnIRmOoYXsDodae/SXjYvSDCPSUrWNDTVCCMvdoLS9ksW9XvuN/P9TOfWHaPjKX0jx2y6lZDiagqMFOR1Ddi9t7C1pcKJUqMrFhYWv4Qa0lHCORBCAjlBHCOASaLEoixuMTDpnf/KOLNyH5xbpZN9o5vSLaXVL1SGzsLsfYU8u8zgYdwJp47Gmq5djcs36AeGlpu4d1ta08XJl1V7+PDoxdOhUvNpRNXDMJs3nJpnRbwakJFW0gatpdppkWtUX61/HX9ZlTaHtL7povXmLrOJm5yZTyzeLG/MdlcXSPG3jMoqJwYe8Su1MQBNZsWJ0nPfLnfTzwtLV0H1h7xNWrtOgu9x5aysVMSJiZxwE17/4T+P8AlYqu3KXA3mE7XU8bTghhe8KlQXk96r/HxcroWaa7Qp5wuvWqpNtDlJFr8dJ6LthRdCLX7Q4XIsD+E8pTZKnGUaZZbvXABIuBnFwdd86GF6SscQ5o0Qy1K5VWbsjKLLewueBNp1k08971eQI7Sq1OktUEjKmhtuJ/GdLo9tCriXYOwUKuayga621J8RNJXZtHHaO0IUlCMCACSEAJICBVul/RxalN69NyjjtnXQkAg2P1Sb+GneZQMNsVjRDVKh0YZQ7suZs40st+yACO87p67tumWw1UD2L+QIJ+AMp+zl7FOyqb1yDcHTU5yDuvYEQsrzzpDspKeIJpoVpGgpp9ok9ZnK1M1jowN9L6XE9n2f0K2bVwtPrMOTekpP7Wte9t/r755HtRgUpm5u6PWYcjVxL6ryBVF/3nu2z6mXAq3LD39ymalsq34eQ9Dui+FxmIrFs6pTsaSZ2ZVu5sDc5mFhuJnrdGkFAUbhPOfRHc1MSbaELbvs7f6989LtM4/C8v/WkY47QmnMQjhaARiMLJokAZ1RS7nKqi5PISgbc2wa9QtuG5B7K/nxM2elu1jUq9UjdhDa3tPxY87bh585XirN2UUu3JRf38p5eXk32j3+n4dfVWti8dktc27I15EG4MsOynNRQ1uAvy1F5pYLomWIbFNZRuQHU/eYfIe+WZKaIoRAFVRZQBYAcgJwj053H4go6CZ1aYGblBqhkY03qVQHSYqjTFTPGNzCMNSpMb1dIqpmpUqGQOvV0msKkKpmItAyM0gKukFN5iqKbywTR9ZkM16cykmaRycQSKqWJBFcGmwt2HFypN+VpLD4RaeGqOTuQCmbEA1OtQtY7r5c0sCbBucxYC5vx4zQ2n0bNMBlZnXKVy3OVL8QO/nPc+c46nW3EAeU6+x3qr1oom1Q4WoENrkMMrXAsbnQ8Jy6WCqXuFJuBfQ7woE73R6hVp10coQouGNjuKkfiIFmwFRmpIz+saaltLdojXQ7psRsdYrSoYkgIgJMczIJKkxLjKHCtTPg6n8Z5l0q6ZVsVmoUL0qJuG9uqOOY8F7h53lYpqg38BfTmBp5SdTUxe54ytTNKoBUU/sn3Mt/VPfKfs9EdWS5JXcVbssHQEZbbzqxnlXRzZIxmLJQZmU51sQMrLqGueR4d3GXSimLpIUpIAgz6FlOS2lxaxuLaeAM0ljkbfytinRQOxTw1MW3aAnT3/AAnsQrAbNS5C3phbncBre58BPFsAEqVA9SpWvmHrKBe2guLbvlPW9kYDEVMMR9JGRl0VxRdUXwyd/GWTZbpQ/RBjR9LxFJ3F2p/sQW9YK5JCDiLEnTvM9P2htOhhyorVAha+XQm4Fr7gbbxPIKwTZONNemetNNL0mNNlpsWOVlQWUbmI+M6+0OlGH2oadWiGXJTtVVrXRyxutxvHZGvh4TnnejHb0cPH7/LMb5emYTGUq37tw9gCbX3G9t/gZshJRsBtI4ZBW0AsQwO4ryMsVTaLOoJGS4Byg3tfmeM5488s7/Lr6j0OXHl2vauq9VF9ZgPj8pp1ds0V0AZj3Cw+M4u0P3Za5HnOWa2+3KTLlyjGPp8fK2LtVjeygeNz+Uk20Klt4XwGvxlcwuJax8j8Zn+kEzn7mX3dPawnhuLhMONTTS/3QT7zEKiDRLAcgLCYesBGpmv1gBmK6TTZZyeEhk4ma71D7VhIviBzmVbYEGE1Frd8Zryo26bQaoJpHECQNeNDLiKk0alaOrWmkz6yUZ3qEiYAxvJAyDXjS7bCtMrLcTBTmyk1GawGnreSvMxWYykos1D1R4D5TOBMC16QH7xAPvL+ckMbQ+2p/wAa/nPa+c2EQDcAJKaw2hh/t6X/ANifnJf0hQ+2p/xr+cI2LR2mv/SGH+2p/wAQgdp4Yf39P+IQNoCZFS+h4ixnLxe38JTRn61XsLhVILMeAA8ZQuk3SvHg2psVbLcU6d7LyBYdpj7rm268Gmp0s6O1cFWzWL0nY9W/fqcjcmtfxsbd1UxVayt9xvkdJ0tn9PsYjNh9o3xFJrLVSpckag5lPBhvFrWNrWmn0mxuysyjALiq91ZqoZ6aW32A7B3WufESdLcyZvRhtfq26opftHVdWbMWNzwsNOcve2NohaRpqHBKFUzIMue2hPC3d3yudFOjVE1L03sqqChO/tZszdq+hO7Qb91zLNtDZzlC2fKUuSCdXsurAcOOhGvdbXdZefvtHFM4yUrsAtrJ6wufq343909q2AGOFQtSr6pcg9WDfu/3ng2zekRZi5AWrnXIAt1YFtx1GUgcePKfRnRd8+DoPxakpOv1jvt3XvLjTJ4Z042viAj06lBAQ/ZZgesUG37xQTZ7KQdd3Ccn0dN2azc6i/Bf1noHpn2aAVNO4zgmtdyRfWzKGNlPZI033nI9DWDweI+kUalHMVVGDF2u1yytYKRa3Y9858068bjHo9JyezyTkym5P8Q2zUr1KQWmruqOC2VWYC2trKCdbS50cfmRWsRdRoQQRpxB1B8Zbtm4Cjhk6ugmRSxYi7G7HiSxJO4TFtPZlPEet2W3ZhvtyPMTjODU7fLtzeu93PdnbwqGMxgamUJ8JzkrTpbT6PY5KhFClTrU/qt1ipUGmuZWW2/kxmeh0NrsmZ3VH4rckD/MAflJePK+FnNx6+XLo4q3fw/KZjjDKht/bn0WvUwxAVqblWYgsDbitiuh03icpOkDMSWxjAWIACuoBINvVHD8Jn263143vuPRfpbcAZBmqH6p90pS7KxlTCDHfSWNAuVDmrVHaDFSMp13g624TQoIrOoOMWxdc37Yghbi+8zPS7Tjxs3Mo9Aql7bju75EVSBOFhRVXFsiVGalderNzZuyL2ItfW89Np9FkeiuclavrE8ByBXjNY8fVezz8mcwk2qaVpJq0zbTwIw9Q06jgGym+tiDe2pHcZjGGDaq6n/MJLhYTOVjZpBq/wApmODqDcAfAyP0F+IO6Tpp1RrmpeQYzYqUlX1mVPvMB85iJpX1qA+Fz8QI6V2jnmWkQ06eyNjtiFLUcpANiWLAX5DTWLHbDxFP+7817Q+G6anHdbc7yTemmEk0aaTVaiGxHwk0rEnUTOmtt4PCPDYKvUF1pMw5hT/oyLYHFfYVP4Gmum/Znqjgsqfaj/XnNfKW3Zv9eF5bn2NhiblSb/4j8oJsjDA36u/jc/Az1PEp7YVzwb3TC+Ef/FL4mBoDcnlrb3bpk+iUfYEDzhsMb63/AJvymvVwgvcA7uN/ynpxwdH2BMdTC0fYX3SKpWxsFqGI+uP5Rf52na2lTpYen11S4Z3yJoSTmLKO+37NJ0McqLcKAO0pPL1ZWvSTVOJIwwAXLSDBr21BDEDvteWLGnj9kVar3IOm8NY/A7pjp9Fe2rdUgIYHd2dDf1RpyPl5z03Z2HpLTXKi+qLmwudN5PEzNiqqqjHQaW3DjvHuvJImWW1U6K4J0d8gBtTpXZrnsZNSNfX8vreY3do01K4msEy9Xh6iDS2ZmS7MRbeABr/jM2+ju5r2zMlLjvyKQQBx1f5SPSQ5cDimvvo1Dyt+zA/CbrMeF7GYkFb3CAEacS6Xn0x0EJ/o7D3+zP8AztPmfYCdmqeS0/jVSfSHo4qX2ZRvwLj/APRvzj7l8K36YqXYVjxoVB5qdP8AnMqXofqintB6ViM+FZwCLWs6bxw9aeg+lvAGrgCVF2BsPB9D8hPN/R31ibVpdZe5pVqDbtGClrG3+JJnXd2nfjr26EUJXA5IGRhAq/SH0f4DHVjXqiojtbMabgZrAAEggi9gBOQvoh2d9tif4qX/AI/H3z0CO8aXdUvpxs+lhNjphaIORKiKt9SfWYljzJv755Pg9njNe3Ge/wC3dmrisO9Em1xdTycbj+HnPL26NYulUyGg5N9Cqkg+BGk4csu30PR8mMxst7u90FwpastxcL2j3W3fG09FZpweieymw1ImoLO5uR7KjcPHjO0TOvHNR5OfOZZ9mltjZVPEplbRgOw3EcbHmJ53tfZNXDt2ktyPBh3HjPUbwdQwysAwO8EAg+RjLCZJx8txeHVKpJuCQb8NLTcq1qy07m7FtF03jvPKerHYWDLZjhqV73vlG+ZNqbJoYhMjrlsLKVsCtt3l3Tn7N+7v/Jnbs8aTDMdSbtvv+AHKdbZWzquIcUkS1z2jfQDmeQlmHQRg/wD6hSn3Tmt4Xt8ZatlbNp4ZMicfWbi0xhxZb7t5+pxk+n5ZNl4FMPSWkm4bz7THeZtZpGE9Umnht3d1jrYem/r01bxUGFPDUl9Wmq+CiZIQm0rxXhCBRvpItvkXxHeJkXYLXv1vll0+ckuwD9r/AC/rMN9mr1/ffzk/pPfNn+r5+1/l/WTTo/8A8X+X9Y7ruNH6R3yD4kAXJ0E6f9X/APi/y/rGOjo+0/l/WO5uK5iMUKl8pO5fhf8AOVnpHha711q093Ugt4jsN8j756Ieiii7JU7VjYW7JPv0lS25QqqrKAyNqLcdd6/IjnduJEHarNs3FXprY37I+U1ts43NUpYZSMzEu3cqg295Pwlf6LLVp6VAVut7Zr78uWwt2rgg3Uzd2ngalDGVKjOMzYI1adx+606vKe8sb+RmsZ90zkl1jdrJ0fYdUumuS4JBHEgge4ad/fOf04fLs7Fa/wBww8rWnVwNN0phWFx9WwY9nf2rbiCT5WnP6R1+qoM9WktSlotZCdWpOcr6AWuAd3HmI8svFOjiXp4juWl/1lP4T6F9GisuzkDqVId9CNQCbjTwPxnh2B2acOuOp+xiHoofa6qoDv8ACxntPonqMdn2YG4quRfipsQRfeN+vdLPK5fEdrphhDWwVZBvyZh4rrPDOgdQpiqJIAIxVPXjlzBWHhYmfRVRAylTuIIPmJ4PiNnfRMYUP2iutiLhXNxfymb8t4X6bHtC8uRtHEpvrzAPvEc05COKOQOEUcBiO8QhKHeEIQCOKOACOKEB3ijigOEIQHCEDAcBFHA4IMmDMYkxMtMgMkDMYkhCMgMkDMYMkIGQGY8RhqdQZXUMCLd/kZOMCBrYLZtGlqqkkaAsSxUa6LfcNTu5zidL9mtUZXCmxCI7KCSEDMbWH3id0s0kCJRwkxyEDtC3DQ7pwum1TrsI9Kmbs1hxG4332Ouk2NnMzYnEJlGRKrFDfdqRlI8bmb20cAlRCpJUb+ybHQ390ix5ZtwVne4UBmqPVemDmIaqS1y1gDZCBzly9FvSCjhKdSliWyZnVk+trlsRYXI3CVbatR2wYxa3pMVAsOKhsqkakgEC3O2/Wb/o12bWxrOWxNRcmgFksW7+zuju39N+XpOO6c4amDlWpUtuyrbN5ta0oOF2c+OxFSvTzXYq1S6soQljZEa1iAAPfbhcw6fbDxeBbDl8cpp1nZHfqshWoFJUubsMultANx0O+WT0euKiMwXISlBjYk3ykjUnibG/cZv8OfhbdnU6qoBVIJAAFuAAA17982oGKZQ44oQHHFCA44o5Q4RRwCEIQHCKECUIoQHCKOARxQgOEUcCvgzIAZAGSBmWmQCSAExiTEIyAjlJZpjEkIE7wiEcCQkhIiSECobIb+14xeVfTzuZ2Kw7JPdpOVs45Mdix7TqfgPznUrm6nwgeX1Ed9nClTGZmw6AAZQTZnZhcnX1BoLnQTuehhmD17AFrkqCbA77azgDHLRwoZi1gBcLbMctR9xPqnfr5biZ3PRDUyvUblTB9y3kl+HbKfpYfTj1P0Gj1hYEYu9LKASago1coN9y3IueU1vRo9qJPDq08fW/X5zX9PtT9hhEue1iWIH3Vt/3iZPRkw6sDfekp8wy6eWh/wA035jj4egQgYpEOOKECUIo4BHFCUOOKEBxyMcBwihAccUIDhFCA45GOA4RQgcESQkBJiZaTEkJESQhExJCQEkIEpISMYgSEkJCSECq0gP6QxPPLT/7v0nTq7j4TlBbbSrnnSp/NvynUqnQwPH9rD+xsORqD3VHEsnor/vv/jG38InIRFZcjuiA16wLVMuQWrP62YEAcLkEayxej9qRxdUUQFVqDWCm6g3Hqm50sBxOt7aWmJ/bvf6Hp7pEJg21Oao+YEmwYLTAyjcOO6b/AKNaikkKQdGsfV7J6ogqvDf5Ss+kzaX0mhghUYk9WlRmy3ILVTTK3Fgq2DHdc5FF5a/RzgRTLuPUdVajv/dWQLxOpFjvO+d7Hn8L5FCEyCEIQHHFCA44oQHCEIBHFCA44oQHHIxwHCKEBwihAccUIHBEkJESQmWkxJCQEmIRMRiREkIEoxIxwJyQkBGIFcrC2Nq/cp+frH8ZtVWFj4RbZpFaoqcGWx8QdPnNes918oHlu11/YVf/AHsR/wBY/nO56JH/ALQq86VvgJo47CgtUpm5BqMbfeIJ3d4iwdMUrdVdCBYFSQbbt4mOn9u3X+lY6QbQct1KsMq01Wpp62SqaoAzi9wT9XQ24z2joTiFelQRQLUsFQBINznZVBvpp6rad0pCbJpdUSVGigEk6kXuAOeusv3QbB5KGewUO11Ub0QKFpqx4sACT3v3TpvblZ2WYwihDJiEUcocIo4DhFCBKEUIDjkY4DhFHAI4oQHCKEBwhFAcd4oQOEsmIQmWkhJCEIEhJCEIRKMQhAcYjhAw4zD9YhW9j9U2vZuFxxHMcpxamCq5b5ddcy3uQRvy+0vEHv1sYQlFJ23hmSqxIIBN72NgTvHjoZp0abMcq6nkI4SSbum/G1o2L0bxFaxrWpoL2H1n0NtBuG7W/lLphqQootNBlVFUDiCN2nff5whKxbttXhCEII4QlBHCEAjhCAQhCA4QhAI4oQHCEIDhCEAhCEAhCED/2Q==" alt="Fix Leaks">
+                <h3>Fix Leaks</h3>
+                <p>Even a small drip can waste hundreds of gallons of water. Make sure to fix leaking faucets, pipes, or toilets promptly.</p>
+            </div>
+            <div class="tip">
+                <img src="data:image/jpeg;base64,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" alt="Shorten Showers">
+                <h3>Take Shorter Showers</h3>
+                <p>Cutting your shower time by just a few minutes can save a significant amount of water each day.</p>
+            </div>
+            <div class="tip">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIDbwm3WigO2osYwWPqbrormAcwGFMrWninw&s" alt="Use Water Efficient Appliances">
+                <h3>Use Water-Efficient Appliances</h3>
+                <p>Dishwashers and washing machines that are rated for water efficiency can reduce your water usage by a large margin.</p>
+            </div>
+            <div class="tip">
+                <img src="data:image/jpeg;base64,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" alt="Turn Off the Tap">
+                <h3>Turn Off the Tap</h3>
+                <p>When brushing your teeth or washing dishes, turn off the tap while you scrub. It’s an easy habit to adopt!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Save Water Initiative. Learn more at <a href="https://www.water.org" target="_blank">Water.org</a></p>
+    </footer>
+
+</body>
+</html>
